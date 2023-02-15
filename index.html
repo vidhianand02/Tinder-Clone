@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+		/>
+		<title>Vidhi's Tinder Clone</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="side">
+				<div class="header">
+					<div class="avatar">
+						<img src="data:image/jpeg;base64,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" alt="" />
+					</div>
+					<div class="title">My Profile</div>
+				</div>
+				<div class="menu">
+					<ul>
+						<li>Matches</li>
+						<li class="active">Messages</li>
+					</ul>
+				</div>
+				<div class="messages">
+					<div class="avatar">
+						<img src="https://randomuser.me/api/portraits/women/38.jpg" alt="" />
+					</div>
+					<div class="message">
+						<div class="user">Ishita</div>
+						<div class="text">Good to know that.</div>
+					</div>
+				</div>
+				<div class="messages">
+					<div class="avatar">
+						<img src="https://randomuser.me/api/portraits/women/39.jpg" alt="" />
+					</div>
+					<div class="message">
+						<div class="user">Saumya</div>
+						<div class="text">Heard of that?</div>
+					</div>
+				</div>
+				<div class="messages">
+					<div class="avatar">
+						<img src="https://randomuser.me/api/portraits/women/40.jpg" alt="" />
+					</div>
+					<div class="message">
+						<div class="user">Shreya</div>
+						<div class="text">Told you!</div>
+					</div>
+				</div>
+				<div class="messages">
+					<div class="avatar">
+						<img src="https://randomuser.me/api/portraits/women/41.jpg" alt="" />
+					</div>
+					<div class="message">
+						<div class="user">Divya</div>
+						<div class="text">Hey there! How are you?</div>
+					</div>
+				</div>
+				<div class="messages">
+					<div class="avatar">
+						<img src="https://randomuser.me/api/portraits/women/42.jpg" alt="" />
+					</div>
+					<div class="message">
+						<div class="user">Anwesha</div>
+						<div class="text">Yeah! I definitely felt the same.</div>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="card">
+					<div class="user">
+						<img
+							class="user"
+							src="https://images.unsplash.com/photo-1532910404247-7ee9488d7292?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80"
+							alt=""
+						/>
+						<div class="profile">
+							<div class="name">Shruti <span>20</span></div>
+							<div class="local">
+								<i class="fas fa-map-marker-alt"></i>
+								<span>20 kilometres away</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="buttons">
+					<div class="no">
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="star">
+						<i class="fas fa-star fa"></i>
+					</div>
+					<div class="heart">
+						<i class="fas fa-heart"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
